@@ -1,0 +1,28 @@
+@tailwind base;
+
+.logo {
+  width: 200px;
+}
+
+.blog-post {
+  @apply text-xl;
+}
+
+.blog-post a {
+  @apply text-sekai;
+}
+
+a {
+  @apply text-sekai;
+}
+
+.blog-post blockquote {
+  @apply bg-red-200;
+  @apply m-4;
+  @apply rounded-lg;
+}
+
+
+@tailwind components;
+
+@tailwind utilities;

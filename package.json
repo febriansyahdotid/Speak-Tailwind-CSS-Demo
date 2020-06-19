@@ -1,0 +1,62 @@
+{
+  "name": "sekaidotid",
+  "private": true,
+  "description": "Berbagai Hal Tentang Anime, Manga, Jepang & Hal Menarik Lainnya",
+  "version": "1.0.0",
+  "author": "FEBRIANSYAH <febriansyahid@outlook.com>",
+  "bugs": {
+    "url": "https://gitlab.com/sekaidotid/website/-/issues"
+  },
+  "dependencies": {
+    "gatsby": "^2.21.21",
+    "gatsby-image": "^2.4.3",
+    "gatsby-plugin-advanced-sitemap": "^1.5.4",
+    "gatsby-plugin-google-analytics": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.4.2",
+    "gatsby-plugin-offline": "^3.2.1",
+    "gatsby-plugin-postcss": "^2.3.1",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-sharp": "^2.6.2",
+    "gatsby-remark-copy-linked-files": "^2.3.2",
+    "gatsby-remark-images": "^3.3.2",
+    "gatsby-remark-prismjs": "^3.5.1",
+    "gatsby-remark-responsive-iframe": "^2.4.2",
+    "gatsby-remark-smartypants": "^2.3.1",
+    "gatsby-source-filesystem": "^2.3.1",
+    "gatsby-transformer-remark": "^2.8.7",
+    "gatsby-transformer-sharp": "^2.5.2",
+    "prismjs": "^1.20.0",
+    "react": "^16.13.1",
+    "react-adsense": "^0.1.0",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5"
+  },
+  "browserslist": [
+    "last 3 Firefox versions",
+    "last 3 Chrome versions"
+  ],
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": "https://gitlab.com/sekaidotid/website.git",
+  "scripts": {
+    "build": "gatsby clean && gatsby build",
+    "develop": "gatsby clean && gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,mdx}\"",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format",
+      "pre-push": "yarn format"
+    }
+  }
+}
